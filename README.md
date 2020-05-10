@@ -21,6 +21,12 @@ For each dataset, you shall train and evaluate each classifier (with parameter v
 * As evaluation set splitting technique, you shall use once the holdout method with 2/3 training and the rest for testing, and once cross validation with 5 folds.
 
 You shall present these results in a tabular form, with one table for each dataset & splitting combination approach.
+Iris/5-folds | Accuracy | Precision| Training time | Testing time
+---|---|---|---|---|---
+k-NN (3-NN) | .85 | .82 | 0.1 sec | 27 sec
+Naive Bayes | .72 | .82 | 1 sec | 2 sec
+Decision Tree | .92 | .76 | 5 sec | 2 sec
+... | ... | ...| ... | ...
 
 Then describe the results, and analyse e.g.:
 * Which classifiers work best?
